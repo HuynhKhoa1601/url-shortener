@@ -14,7 +14,6 @@ try {
 }
 const router = express.Router();
 
-// Basic Configuration
 const port = process.env.PORT || 3000;
 
 app.use(cors());
